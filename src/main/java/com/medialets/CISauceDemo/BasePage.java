@@ -20,7 +20,7 @@ public class BasePage
 		if(browserName.equalsIgnoreCase("chrome"))
 		{
 			DesiredCapabilities caps = DesiredCapabilities.chrome();
-			caps.setCapability("platform", "OS");
+			caps.setCapability("platform", "OS X El Capitan 10.11");
 			caps.setCapability("version", "48.0");
 
 			driver = new RemoteWebDriver(new URL(URL), caps);
