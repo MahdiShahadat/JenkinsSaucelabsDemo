@@ -17,22 +17,22 @@ public class BasePage
 
 	public static WebDriver startBrowser(String browserName, String url) throws Exception
 	{
-//		if(browserName.equalsIgnoreCase("chrome"))
-//		{
-//			DesiredCapabilities caps = DesiredCapabilities.chrome();
-//			caps.setCapability("platform", "OS X El Capitan 10.11");
-//			caps.setCapability("version", "47.0");
-//
-//			driver = new RemoteWebDriver(new URL(URL), caps);
-//		}
-		if(browserName.equalsIgnoreCase("firefox"))
+		if(browserName.equalsIgnoreCase("chrome"))
 		{
-			DesiredCapabilities caps = DesiredCapabilities.firefox();
-			caps.setCapability("platform", "OS X El Capitan 10.11");
+			DesiredCapabilities caps = DesiredCapabilities.chrome();
+			caps.setCapability("platform", "Windows 10");
 			caps.setCapability("version", "45.0");
 
 			driver = new RemoteWebDriver(new URL(URL), caps);
 		}
+//		if(browserName.equalsIgnoreCase("firefox"))
+//		{
+//			DesiredCapabilities caps = DesiredCapabilities.firefox();
+//			caps.setCapability("platform", "OS X El Capitan 10.11");
+//			caps.setCapability("version", "45.0");
+//
+//			driver = new RemoteWebDriver(new URL(URL), caps);
+//		}
 //		if(browserName.equalsIgnoreCase("IE"))
 //		{
 //			driver = new InternetExplorerDriver();
