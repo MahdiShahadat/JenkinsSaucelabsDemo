@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CISauceDemo Test Runner" duration-ms="7592" started-at="2016-04-11T14:55:20Z" finished-at="2016-04-11T14:55:28Z">
+    <groups>
+    </groups>
+    <test name="CISauceDemo Test" duration-ms="7592" started-at="2016-04-11T14:55:20Z" finished-at="2016-04-11T14:55:28Z">
+      <class name="com.medialets.CISauceDemo.CorrectPageTest">
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:com.medialets.CISauceDemo.CorrectPageTest@3b6eb2ec]" name="verifyHomePageTitle" duration-ms="7345" started-at="2016-04-11T10:55:20Z" finished-at="2016-04-11T10:55:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="finalTearDown()[pri:0, instance:com.medialets.CISauceDemo.CorrectPageTest@3b6eb2ec]" name="finalTearDown" is-config="true" duration-ms="237" started-at="2016-04-11T10:55:28Z" finished-at="2016-04-11T10:55:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalTearDown -->
+      </class> <!-- com.medialets.CISauceDemo.CorrectPageTest -->
+    </test> <!-- CISauceDemo Test -->
+  </suite> <!-- CISauceDemo Test Runner -->
+</testng-results>

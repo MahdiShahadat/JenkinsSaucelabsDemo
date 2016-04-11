@@ -7,7 +7,7 @@
 <test name ="CISauceDemo Test">
 <classes>
 
-<class name = "com.medialets.CISauceDemo.PageTitle"/>
+<class name = "com.medialets.CISauceDemo.CorrectPageTest"/>
 
 </classes>
 </test>

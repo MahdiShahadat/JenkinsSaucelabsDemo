@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8209" started-at="2016-04-11T14:55:44Z" finished-at="2016-04-11T14:55:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8209" started-at="2016-04-11T14:55:44Z" finished-at="2016-04-11T14:55:53Z">
+      <class name="com.medialets.CISauceDemo.CorrectPageTest">
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:com.medialets.CISauceDemo.CorrectPageTest@6d00a15d]" name="verifyHomePageTitle" duration-ms="7972" started-at="2016-04-11T10:55:44Z" finished-at="2016-04-11T10:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="finalTearDown()[pri:0, instance:com.medialets.CISauceDemo.CorrectPageTest@6d00a15d]" name="finalTearDown" is-config="true" duration-ms="225" started-at="2016-04-11T10:55:52Z" finished-at="2016-04-11T10:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalTearDown -->
+      </class> <!-- com.medialets.CISauceDemo.CorrectPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
