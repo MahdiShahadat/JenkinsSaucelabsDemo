@@ -20,10 +20,10 @@ public class CorrectPageTest
 		Assert.assertTrue(pageTitle.contains("Medialets"));
 	}
 
-	@AfterClass
-	public void finalTearDown()
-	{
-		driver.quit();
-
-	}
+//	@AfterClass
+//	public void finalTearDown()
+//	{
+//		driver.quit();
+//
+//	}
 }
