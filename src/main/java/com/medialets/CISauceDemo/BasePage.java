@@ -17,12 +17,13 @@ public class BasePage
 
 	public static WebDriver startBrowser(String browserName, String url) throws Exception
 	{
+		String[] platforms = new String[2];
+		platforms[0] = "OS X 10.11";
+		platforms[1] = "OS X 10.10";
 		if(browserName.equalsIgnoreCase("chrome"))
 		{
 			DesiredCapabilities caps = DesiredCapabilities.chrome();
-			String[] platforms = new String[2];
-			platforms[0] = "OS X 10.11";
-			platforms[1] = "OS X 10.10";
+		
 			String[] browserVersions = new String[2];
 			for(int i = 0; i < 2; i++)
 			{
