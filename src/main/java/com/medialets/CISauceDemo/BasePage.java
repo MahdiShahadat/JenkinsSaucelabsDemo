@@ -20,10 +20,17 @@ public class BasePage
 		if(browserName.equalsIgnoreCase("chrome"))
 		{
 			DesiredCapabilities caps = DesiredCapabilities.chrome();
-			caps.setCapability("platform", "OS X 10.11");
-			caps.setCapability("version", "48.0");
+			String[] platforms = new String[2];
+			platforms[0] = "OS X 10.11";
+			platforms[1] = "OS X 10.10";
+			String[] browserVersions = new String[2];
+			for(int i = 0; i < 2; i++)
+			{
+				caps.setCapability("platform", platforms[i]);
+				caps.setCapability("version", "48.0");
 
-			driver = new RemoteWebDriver(new URL(URL), caps);
+				driver = new RemoteWebDriver(new URL(URL), caps);
+			}
 		}
 //		if(browserName.equalsIgnoreCase("firefox"))
 //		{
