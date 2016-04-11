@@ -25,18 +25,18 @@ public class BasePage
 
 			driver = new RemoteWebDriver(new URL(URL), caps);
 		}
-		else if(browserName.equalsIgnoreCase("firefox"))
-		{
-			DesiredCapabilities caps = DesiredCapabilities.firefox();
-			caps.setCapability("platform", "Windows 10");
-			caps.setCapability("version", "45.0");
-
-			driver = new RemoteWebDriver(new URL(URL), caps);
-		}
-		if(browserName.equalsIgnoreCase("IE"))
-		{
-			driver = new InternetExplorerDriver();
-		}
+//		else if(browserName.equalsIgnoreCase("firefox"))
+//		{
+//			DesiredCapabilities caps = DesiredCapabilities.firefox();
+//			caps.setCapability("platform", "Windows 10");
+//			caps.setCapability("version", "45.0");
+//
+//			driver = new RemoteWebDriver(new URL(URL), caps);
+//		}
+//		if(browserName.equalsIgnoreCase("IE"))
+//		{
+//			driver = new InternetExplorerDriver();
+//		}
 
 		driver.manage().window().maximize();
 		driver.get(url);
